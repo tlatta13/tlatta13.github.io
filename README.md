@@ -9,7 +9,7 @@ Update portfolio website to include links to project 1 and two other application
 * Added personal bio and contact info
 
 ## Images
-![Portfolio example](Assets/Images/Travis Latta's Portfolio.gif)
+![Portfolio example](https://github.com/tlatta13/tlatta13.github.io/tree/master/Assets/Images/Travis Latta's Portfolio.gif)
 
 ## Site Link
 https://tlatta13.github.io/
