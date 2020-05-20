@@ -10,62 +10,46 @@
     <link rel="stylesheet" href="Assets/style.css">
 </head>
 <body>
-    <nav class="navbar" role="navigation" aria-label="main navigation">
-  <div class="navbar-brand">
-    <a class="navbar-item" href="https://bulma.io">
-      <img src="https://bulma.io/images/bulma-logo.png" width="112" height="28">
-    </a>
-
-    <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
-      <span aria-hidden="true"></span>
-      <span aria-hidden="true"></span>
-      <span aria-hidden="true"></span>
-    </a>
-  </div>
-
-  <div id="navbarBasicExample" class="navbar-menu">
-    <div class="navbar-start">
-      
-      <a class="navbar-item">
-        Documentation
-      </a>
-    </div>
-
-    <div class="navbar-end">
-      <div class="navbar-item">
-        <div class="buttons">
-          <a class="button is-primary">
-            <strong>Sign up</strong>
-          </a>
-          <a class="button is-light">
-            Log in
-          </a>
-        </div>
-      </div>
-    </div>
-  </div>
-</nav>
 
     <!-- About Me Section -->
     <main class="section">
         <div class="container">
             <section class="columns">
-                    
-                <figure class="image column is-one-quarter">
-                    <img class="is-rounded" src="Assets/Images/Portfolio-Img.png" alt="Travis holding NC state cup soccer trophy" />
-                </figure>
+                <div class="column is-one-quarter">  
+                  <figure class="image">
+                      <img class="is-rounded" src="Assets/Images/Portfolio-Img.png" alt="Travis holding NC state cup soccer trophy" />
+                  </figure>
+                  <div class="content contact-info" style="text-align: center;">
+                      <p><i class="fas fa-envelope-open-text"></i><a href="mailto: tlatta13@gmail.com" target="_blank"> tlatta13@gmail.com</a></p>
+                      <p><i class="fas fa-phone"></i> (270) 577-6449</a></p>
+                  </div>
 
+                </div>
                 <div id="aboutMe" class="is-three-quarters">
-                    <h4 class="title is-3">About Me</h2>    
-                        <p class="content is-medium">My name is Travis Latta. I moved to Charlotte in 2014 after graduating from The University of Kentucky. While in college I majored in Marketing and Management and minored in Economics and International Business. Since moving to Charlotte I have helped start 2 companies, a direct marketing company and a chiropractic practice.</p>
+                  <h4 class="title is-3">About Me</h2>    
+                      <p class="content is-medium">My name is Travis Latta. I moved to Charlotte in 2014 after graduating from The University of Kentucky. While in college I majored in Marketing and Management and minored in Economics and International Business. Since moving to Charlotte I have helped start 2 companies, a direct marketing company and a chiropractic practice.</p>
 
-                        <p class="content is-medium">I am currently enrolled in the coding bootcamp at UNCC where we are being taught the skills required to start a career as a full-stack developer. Upon completing the program I plan to look for a job with a local marketing agency where I can help clients build their online presence.</p>
+                      <p class="content is-medium">I am currently enrolled in the coding bootcamp at UNCC where we are being taught the skills required to start a career as a full-stack developer. Upon completing the program I plan to look for a job with a local marketing agency where I can help clients build their online presence.</p>
     
-                        <p class="content is-medium">In my free time I enjoy playing soccer, golfing, trying out new breweries around Charlotte and getting outdoors as much as possible.</p>
-
-                        <p class="content is-medium">Here's where you can find me online:
-                            <i class="fab fa-github"></i><a href="https://github.com/tlatta13" target="_blank"> GitHub</a>  |  <i class="fab fa-linkedin-in"></i><a href="https://www.linkedin.com/in/tlatta13/" target="_blank"> LinkedIn</a>  |  <i class="fab fa-instagram"></i><a href="https://www.instagram.com/tlatta13/" target="_blank"> Instagram</a>
-                        </p>
+                      <p class="content is-medium">In my free time I enjoy playing soccer, golfing, trying out new breweries around Charlotte and getting outdoors as much as possible.</p>
+                    
+                  <nav class="level">
+                    <div class="level-item has-text-centered">
+                        <div>
+                          <button class="heading button is-large is-info is-outlined is-rounded" onclick="window.open('https://github.com/tlatta13')"><i class="fab fa-github"></i> GitHub</button>
+                        </div>
+                    </div>
+                    <div class="level-item has-text-centered">
+                        <div>
+                          <button class="heading button is-large is-info is-outlined is-rounded" onclick="window.open('https://www.linkedin.com/in/tlatta13/')"><i class="fab fa-linkedin-in"></i> LinkedIn</button>
+                        </div>
+                    </div>
+                    <div class="level-item has-text-centered">
+                        <div>
+                          <button class="heading button is-large is-info is-outlined is-rounded" onclick="window.open('Assets/Travis-Latta-Resume-Technical.pdf')"><i class="far fa-file"></i> Resume</button>
+                        </div>
+                    </div>
+                  </nav>
                 </div>
             </section>
         </div>
@@ -85,7 +69,14 @@
                             <div class="content">
                                 <p class="portfolioDescription">Concert planning application that allows users to find upcoming shows in a certain city along with information and local dining articles for that city.</p>
                             </div>
-                            <button class="button is-info is-rounded" onclick="window.open('https://andrewpaulgreer.github.io/Project1/')"><a href="https://andrewpaulgreer.github.io/Project1/" target="_blank"></a>View Deployed Applicaiton</button>
+                            <nav class="level">
+                              <div class="level-item has-text-centered">
+                                <button class="button is-info is-rounded" onclick="window.open('https://andrewpaulgreer.github.io/Project1/')">View Application</button>
+                              </div>
+                              <div>
+                                <button class="button is-info is-rounded" onclick="window.open('https://github.com/andrewpaulgreer/Project1.git')">View Repository</button>
+                              </div>
+                            </nav>
                         </article>
                     </div>
                     <div class="tile is-parent">
@@ -95,7 +86,14 @@
                             <div class="content">
                                 <p class="portfolioDescription">Weather dashboard application that allows users to see current weather and 5 day forecast for a city of their choice.</p>
                             </div>
-                            <button class="button is-info is-rounded" onclick="window.open('https://tlatta13.github.io/weather-dashboard/')">View Deployed Application</button>
+                            <nav class="level">
+                              <div class="level-item has-text-centered">
+                                <button class="button is-info is-rounded" onclick="window.open('https://tlatta13.github.io/weather-dashboard/')">View Application</button>
+                              </div>
+                              <div>
+                                <button class="button is-info is-rounded" onclick="window.open('https://github.com/tlatta13/weather-dashboard.git')">View Repository</button>
+                              </div>
+                            </nav>
                         </article>
                     </div>
                     <div class="tile is-parent">
@@ -105,7 +103,14 @@
                             <div class="content">
                                 <p class="portfolioDescription">Application that allows users to select from a number of choices and generates a random password based on that input.</p>
                             </div>
-                            <button id="genBtn" class="button is-info is-rounded" onclick="window.open('https://tlatta13.github.io/password-generator/')">View Deployed Application</button>
+                            <nav class="level">
+                              <div class="level-item has-text-centered">
+                                <button id="genBtn" class="button is-info is-rounded" onclick="window.open('https://tlatta13.github.io/password-generator/')">View Application</button>
+                              </div>
+                              <div>
+                                <button id="genBtn" class="button is-info is-rounded" onclick="window.open('https://github.com/tlatta13/password-generator.git')">View Repository</button>
+                              </div>
+                            </nav>
                         </article>
                     </div>
                 </section>
