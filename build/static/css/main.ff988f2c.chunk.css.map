@@ -1,0 +1,1 @@
+{"version":3,"sources":["About.css","NavBar.css"],"names":[],"mappings":"AAAA,cACI,eACJ,CAEA,SACI,gBACJ,CCNA,iBACI,UACJ","file":"main.ff988f2c.chunk.css","sourcesContent":[".contact-info {\n    margin-top: 15px;\n}\n\n#aboutMe {\n    margin-left: 15px;\n}","#home, #portfolio {\n    color: white;\n}"]}
